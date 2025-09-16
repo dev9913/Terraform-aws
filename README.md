@@ -35,7 +35,7 @@ terraform destroy -auto-approve
 terraform output 
 ```
 
-8. **List resources in the state*
+8. **List resources in the state**
 ```bash
 terraform state list
 #Show details of a specific resource
@@ -50,14 +50,14 @@ terraform workspace select dev
 
 -------------------------------------
 📂 Project Structure
-
-provider.tf   # Cloud provider setup
-resource.tf   # Extra resource   ( terraform lock file store deatils )
-variable.tf   # Input variables
-main.tf       # Main config EC2 instance 
-s3.tf         # S3 config
-dynamodb.tf   # DynamoDB config
-output.tf     # Output values
+.
+├── provider.tf   # Cloud provider setup
+├── resource.tf   # Extra resource   ( terraform lock file store deatils )
+├── variable.tf   # Input variables
+├── main.tf       # Main config EC2 instance 
+├── s3.tf         # S3 config
+├── dynamodb.tf   # DynamoDB config
+├── output.tf     # Output values
 
 
 
