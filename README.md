@@ -4,10 +4,10 @@ This is a AWS Resource templates like EC2, S3- bucket, Dynamodb etc.
  Teraform Commands
 
  Initializes a Terraform project (downloads providers, sets up backend, etc.).
-  -> terraform init 
+  # terraform init 
 
  Checks if your configuration syntax is valid.
-  -> terraform validate 
+  # terraform validate 
 
  Formats your Terraform code to canonical style.
   -> teraform fmt 
